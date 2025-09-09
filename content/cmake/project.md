@@ -1,7 +1,7 @@
 +++
 title = 'Project'
-date = 2025-09-09T15:36:28+08:00
-draft = false
+date = 2025-09-09
+draft = false                                                                                                 tags: ["CMake"]                                                                                                       categories: ["CMake"]
 
 +++
 
