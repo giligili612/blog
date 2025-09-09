@@ -1,8 +1,63 @@
+# 顶层站点配置（放在 hugo.toml 顶部某处，且只出现一次）
 baseURL = "https://giligili612.github.io/blog/"
 languageCode = "zh-CN"
-title = "我的博客"
+defaultContentLanguage = "zh-cn"
+hasCJKLanguage = true
+title = "自由王国的守望者"
 theme = "DoIt"
 
 [markup.highlight]
 noClasses = false
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+  series   = "series"  # Add this line
+
+[menu]
+  [[menu.main]]
+    name = "标签"
+    pageRef = "tags"
+    weight = 2
+  [[menu.main]]
+    name = "分类"
+    pageRef = "categories"
+    weight = 3
+  [[menu.main]]
+    name = "系列"
+    pageRef = "series"
+    weight = 3
+  [[menu.main]]
+    name = "关于我"
+    pageRef = "me"
+    weight = 5
+
+[params]
+  # DoIt 读这里的 mainSections（保留你真实存在的 section）
+  mainSections = ["cmake", "cpp"]
+
+  [params.home]
+    enable = true
+
+    # 关掉个人卡片，直接展示文章流（如果你想保留卡片，就把它改回 true）
+    [params.home.profile]
+      enable = true
+    # 是否显示社交账号
+      social = true
+    # 主页显示的网站副标题
+      subtitle = "欢迎来到我的网站"
+    # 首页“最近文章流”开关 + 每页数量（主题内部也会用到）
+    [params.home.posts]
+      enable = true
+      paginate = 10
+    [params.social]
+  GitHub = "giligili612" # 替换成你的 GitHub 用户名
+  Bilibili = "22168672" # 替换成你的 Twitter 用户名
+  # 其他社交平台同理
+
+  [params.page]
+    author = true
+    date = true
+    categories = true
+    tags = true
 
