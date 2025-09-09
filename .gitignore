@@ -1,0 +1,21 @@
+# Hugo build output
+/public/
+
+# Hugo generated resources
+/resources/_gen/
+
+/.hugo_build.lock
+
+# Node (如使用 PostCSS)
+/node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+

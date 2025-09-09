@@ -1,0 +1,8 @@
+baseURL = "https://giligili612.github.io/blog/"
+languageCode = "zh-CN"
+title = "我的博客"
+theme = "DoIt"
+
+[markup.highlight]
+noClasses = false
+
