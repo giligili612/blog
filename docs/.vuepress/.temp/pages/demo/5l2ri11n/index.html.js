@@ -1,16 +1,3 @@
 import comp from "/Users/hzk/Documents/blog/docs/.vuepress/.temp/pages/demo/5l2ri11n/index.html.vue"
-const data = JSON.parse("{\"path\":\"/demo/5l2ri11n/\",\"title\":\"car\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"car\",\"createTime\":\"2025/11/07 23:17:02\",\"permalink\":\"/demo/5l2ri11n/\"},\"readingTime\":{\"minutes\":0.04,\"words\":11},\"git\":{},\"filePathRelative\":\"demo/car.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/demo/5l2ri11n/\",\"title\":\"car\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"car\",\"createTime\":\"2025/11/07 23:17:02\",\"permalink\":\"/demo/5l2ri11n/\"},\"readingTime\":{\"minutes\":0.04,\"words\":11},\"git\":{\"createdTime\":1762528637000,\"updatedTime\":1762530422000,\"contributors\":[{\"name\":\"hzk\",\"username\":\"hzk\",\"email\":\"859436774@qq.com\",\"commits\":2,\"avatar\":\"https://avatars.githubusercontent.com/hzk?v=4\",\"url\":\"https://github.com/hzk\"}]},\"filePathRelative\":\"demo/car.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

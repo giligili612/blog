@@ -1,16 +1,3 @@
 import comp from "/Users/hzk/Documents/blog/docs/.vuepress/.temp/pages/demo/nty4m48h/index.html.vue"
-const data = JSON.parse("{\"path\":\"/demo/nty4m48h/\",\"title\":\"foo\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"foo\",\"createTime\":\"2025/11/07 22:50:09\",\"permalink\":\"/demo/nty4m48h/\"},\"readingTime\":{\"minutes\":0.04,\"words\":11},\"git\":{},\"filePathRelative\":\"demo/foo.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/demo/nty4m48h/\",\"title\":\"foo\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"foo\",\"createTime\":\"2025/11/07 22:50:09\",\"permalink\":\"/demo/nty4m48h/\"},\"readingTime\":{\"minutes\":0.04,\"words\":11},\"git\":{\"createdTime\":1762527759000,\"updatedTime\":1762527759000,\"contributors\":[{\"name\":\"黄泽坤\",\"username\":\"\",\"email\":\"hzk@huangzekundeMacBook-Air.local\",\"commits\":1,\"avatar\":\"https://gravatar.com/avatar/30c17ef1eb616e1611f497b8cbd0d37ba21d0fdadae2cfc783603a2fc83080a6?d=retro\"}]},\"filePathRelative\":\"demo/foo.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
