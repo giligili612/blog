@@ -1,0 +1,14 @@
+export const postsData = {"/blog/":[{"path":"/blog/3s7y9814/","title":"Markdown","categoryList":[{"id":"5ebeb6","sort":10000,"name":"preview"}],"tags":["markdown"],"createTime":"2025/11/07 22:50:09","lang":"zh-CN","excerpt":""},{"path":"/blog/wjrae2y4/","title":"自定义组件","categoryList":[{"id":"5ebeb6","sort":10000,"name":"preview"}],"tags":["预览","组件"],"createTime":"2025/11/07 22:50:09","lang":"zh-CN","excerpt":""}]}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePostsData) {
+    __VUE_HMR_RUNTIME__.updatePostsData(postsData)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ postsData }) => {
+    __VUE_HMR_RUNTIME__.updatePostsData(postsData)
+  })
+}
