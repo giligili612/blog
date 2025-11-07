@@ -4,14 +4,6 @@ node_modules/
 # VuePress build output
 docs/.vuepress/dist/
 
-# Optional: pnpm lockfile (如果你使用 pnpm)
-pnpm-lock.yaml
-
-# Optional: npm lockfile (如果你使用 npm)
-package-lock.json
-
-# Optional: Yarn lockfile (如果你使用 Yarn)
-yarn.lock
 
 # Logs
 npm-debug.log*
