@@ -1,0 +1,129 @@
+.content .highlight {
+  margin: 1.15rem 0;
+}
+
+.content .highlight pre,
+.content pre.chroma {
+  background: #282828 !important;
+  color: #ebdbb2 !important;
+  border: 1px solid #3c3836;
+  border-radius: 6px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.14);
+}
+
+.content .highlight pre code,
+.content pre.chroma code {
+  background: transparent;
+  color: inherit;
+  font-size: 0.94rem;
+}
+
+.chroma {
+  color: #ebdbb2;
+  background-color: #282828;
+  -webkit-text-size-adjust: none;
+}
+
+.chroma .line {
+  display: flex;
+}
+
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .o,
+.chroma .ow {
+  color: #fe8019;
+}
+
+.chroma .kt,
+.chroma .nb,
+.chroma .bp,
+.chroma .nf,
+.chroma .fm {
+  color: #fabd2f;
+}
+
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .dl,
+.chroma .sd,
+.chroma .s2,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .sr,
+.chroma .s1 {
+  color: #b8bb26;
+}
+
+.chroma .ss,
+.chroma .nc,
+.chroma .nn,
+.chroma .nx {
+  color: #83a598;
+}
+
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo,
+.chroma .no {
+  color: #d3869b;
+}
+
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .c1,
+.chroma .cs {
+  color: #928374;
+  font-style: italic;
+}
+
+.chroma .cp,
+.chroma .cpf {
+  color: #8ec07c;
+}
+
+.chroma .na {
+  color: #b8bb26;
+  font-weight: 700;
+}
+
+.chroma .ne,
+.chroma .nl,
+.chroma .nt {
+  color: #fb4934;
+}
+
+.chroma .p {
+  color: #ebdbb2;
+}
+
+.chroma .hl {
+  background-color: #3d3d3d;
+}
+
+.chroma .ln,
+.chroma .lnt {
+  color: #928374;
+  user-select: none;
+}
+
+.content code {
+  color: #d3869b;
+}
+
+.content pre code {
+  color: inherit;
+}

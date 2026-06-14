@@ -17,6 +17,20 @@ categories = "categories"
 [markup.goldmark.renderer]
 unsafe = true
 
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = false
+noClasses = false
+style = "gruvbox"
+tabWidth = 4
+
+[markup.goldmark.extensions.passthrough]
+enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+inline = [["$", "$"], ["\\(", "\\)"]]
+
 [params]
 title = "自由王国的守望者"
 author = "giligili612"
@@ -25,7 +39,7 @@ footnote = """
 Powered by <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> |
 Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
 """
-customCSS = []
+customCSS = ["css/math.css", "css/code.css"]
 customJS = []
 dateFormat = "2006-01-02"
 emphasisWithDots = true

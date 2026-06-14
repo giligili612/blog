@@ -1,0 +1,44 @@
+.content mjx-container {
+  font-size: 1.04em;
+  line-height: normal;
+  overflow: visible !important;
+}
+
+.content mjx-container[display="true"] {
+  margin: 1.3rem 0 !important;
+  padding: 0.35rem 0;
+  overflow-x: auto !important;
+  overflow-y: visible !important;
+}
+
+.content mjx-container svg {
+  overflow: visible !important;
+}
+
+.content mjx-container[display="true"] svg {
+  max-width: 100%;
+}
+
+.content .math-display {
+  display: block;
+  margin: 1.2rem 0;
+  padding: 0.25rem 0;
+  line-height: normal;
+  overflow-x: auto;
+  overflow-y: visible !important;
+}
+
+.content .math-display .MathJax {
+  overflow: visible !important;
+}
+
+.content .math-display::-webkit-scrollbar,
+.content mjx-container[display="true"]::-webkit-scrollbar {
+  height: 0.45rem;
+}
+
+.content .math-display::-webkit-scrollbar-thumb,
+.content mjx-container[display="true"]::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.35);
+  border-radius: 999px;
+}

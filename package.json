@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "PATH=$PWD/node_modules/sass-embedded-linux-x64/dart-sass:$PATH hugo --minify",
+    "build": "PATH=$PWD/node_modules/sass-embedded-linux-x64/dart-sass:$PATH hugo --minify --cleanDestinationDir",
     "dev": "PATH=$PWD/node_modules/sass-embedded-linux-x64/dart-sass:$PATH hugo server -D"
   },
   "devDependencies": {
