@@ -1,12 +1,17 @@
-# Node.js dependencies
+# Hugo output
+public/
+resources/
+.hugo_build.lock
+
+# Node.js dependencies used by the theme asset pipeline
 node_modules/
+themes/*/node_modules/
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS-specific files (macOS, Windows)
+# OS-specific files
 .DS_Store
 Thumbs.db
-

@@ -1,0 +1,54 @@
+baseURL = "https://giligili612.github.io/blog/"
+enableGitInfo = true
+enableRobotsTXT = true
+hasCJKLanguage = true
+locale = "zh-CN"
+rssLimit = 10
+theme = "hugo-texify3"
+title = "自由王国的守望者"
+
+[pagination]
+pagerSize = 5
+
+[taxonomies]
+tags = "tags"
+categories = "categories"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+title = "自由王国的守望者"
+author = "giligili612"
+description = "博客、技术专栏、读书笔记"
+footnote = """
+Powered by <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo</a> |
+Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
+"""
+customCSS = []
+customJS = []
+dateFormat = "2006-01-02"
+emphasisWithDots = true
+toc = true
+rootFontSize = "105%"
+math = true
+enableDuckDuckGoSearchBox = true
+numberedSubtitles = true
+
+[params.commentEngine]
+code = """
+"""
+
+[params.buymeacoffee]
+code = """
+"""
+
+[params.sharingbuttons]
+facebook = false
+twitter = true
+email = true
+linkedin = false
+reddit = false
+whatsapp = false
+hackernews = false
+telegram = true
