@@ -7,7 +7,7 @@ tags: ["blog"]
 categories: ["booknotes"]
 ---
 
-# 注重实践的哲学 A Progmatic Philosophy
+# 实践的哲学 A Progmatic Philosophy
 
 本章的核心词只有一个——**“责任”**
 - 对工作内容与团队合作的“责任”
