@@ -1,0 +1,7 @@
+{{- $label := .Get "label" | default (.Get 0) | default (.Get "lang") -}}
+{{- $lang := .Get "lang" | default (.Get 1) | default $label -}}
+{{- $options := .Get "options" | default "" -}}
+
+<div class="code-tabs__panel" data-label="{{ $label }}" data-lang="{{ $lang }}">
+  {{ transform.Highlight (strings.Trim .Inner "\n") $lang $options }}
+</div>

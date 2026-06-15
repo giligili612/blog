@@ -84,16 +84,16 @@
   </div>
 
   <!-- javascript -->
-  <script src='{{ "js/script.js" | absURL }}' defer></script>
+  <script src='{{ "js/script.js" | relURL }}' defer></script>
 
   <!-- custom css -->
   {{ range .Site.Params.customCSS }}
-  <link media="screen" rel="stylesheet" href="{{ . | absURL }}" />
+  <link media="screen" rel="stylesheet" href="{{ if or (hasPrefix . "http://") (hasPrefix . "https://") }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" />
   {{ end }}
 
   <!-- custom js -->
   {{ range .Site.Params.customJS }}
-  <script src="{{ . | absURL }}"></script>
+  <script src="{{ if or (hasPrefix . "http://") (hasPrefix . "https://") }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}"></script>
   {{ end }}
 
   <!-- google analytics -->

@@ -40,7 +40,7 @@ Powered by <a class=link href=https://gohugo.io target=_blank rel=noopener>Hugo<
 Theme <a class=link href=https://github.com/michaelneuper/hugo-texify3 target=_blank rel=noopener>TeXify3</a>
 """
 customCSS = ["css/math.css", "css/code.css"]
-customJS = []
+customJS = ["js/code-tabs.js"]
 dateFormat = "2006-01-02"
 emphasisWithDots = true
 toc = true

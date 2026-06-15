@@ -96,6 +96,24 @@ int main() {
 ```
 ````
 
+多语言代码用 `code-tabs` 和 `code-tab` shortcode：
+
+````md
+{{< code-tabs >}}
+{{< code-tab label="C++" lang="cpp" >}}
+#include <iostream>
+
+int main() {
+    std::cout << "hello\n";
+}
+{{< /code-tab >}}
+
+{{< code-tab label="Python" lang="python" >}}
+print("hello")
+{{< /code-tab >}}
+{{< /code-tabs >}}
+````
+
 ## 本地预览
 
 ```sh
