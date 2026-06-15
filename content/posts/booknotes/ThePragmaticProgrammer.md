@@ -3,8 +3,8 @@ author: "giligili612"
 title: "《程序员修炼之道》(The Pragmatic Programmer) 第1章"
 date: "2026-06-15"
 description: "The Pragmatic Programmer"
-tags: ["blog"]
-categories: ["booknotes"]
+tags: ["book"]
+categories: ["notes"]
 ---
 
 # 实践的哲学 A Progmatic Philosophy
