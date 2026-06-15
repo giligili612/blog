@@ -3,7 +3,7 @@ author: "giligili612"
 title: "《程序员修炼之道》(The Pragmatic Programmer) 第1章"
 date: "2026-06-15"
 description: "The Pragmatic Programmer"
-tags: ["book"]
+tags: ["cs", "book"]
 categories: ["notes"]
 ---
 
