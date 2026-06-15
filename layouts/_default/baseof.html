@@ -23,10 +23,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}/images/favicon-16x16.png">
 
   <!-- keywords -->
-  {{ if .Keywords }}
-  <meta name="keywords" content='{{ delimit .Keywords " " }} {{ delimit .Site.Params.keywords " " }}'>
-  {{ else }}
-  <meta name="keywords" content='{{ delimit .Site.Params.keywords " " }}'>
+  {{ $siteKeywords := .Site.Params.keywords | default slice }}
+  {{ $keywords := union (.Keywords | default slice) $siteKeywords }}
+  {{ if $keywords }}
+  <meta name="keywords" content='{{ delimit $keywords " " }}'>
   {{ end }}
 
   <!-- math -->
