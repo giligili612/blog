@@ -14,6 +14,7 @@ categories: ["diary"]
 下面试一下多语言代码块：
 
 {{< code-tabs >}}
+
 {{< code-tab label="C++" lang="cpp" >}}
 #include <iostream>
 #include <string>
@@ -40,14 +41,15 @@ int main(void) {
 }
 {{< /code-tab >}}
 
+
 {{< code-tab label="Python" lang="python" >}}
 def greet(name: str) -> str:
     return f"hello, {name}"
 
-
 if __name__ == "__main__":
     print(greet("world"))
 {{< /code-tab >}}
+
 
 {{< code-tab label="Java" lang="java" >}}
 public class Main {
@@ -60,6 +62,7 @@ public class Main {
     }
 }
 {{< /code-tab >}}
+
 
 {{< code-tab label="Go" lang="go" >}}
 package main
@@ -74,4 +77,5 @@ func main() {
     fmt.Println(greet("world"))
 }
 {{< /code-tab >}}
+
 {{< /code-tabs >}}
