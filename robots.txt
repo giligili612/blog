@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://giligili612.github.io/blog/sitemap.xml

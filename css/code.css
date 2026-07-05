@@ -1,0 +1,184 @@
+.content .highlight {
+  margin: 1.15rem 0;
+}
+
+.content .code-tabs {
+  margin: 1.15rem 0;
+  border: 1px solid var(--bg2);
+  border-radius: 6px;
+  background: var(--bg_s);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+}
+
+.content .code-tabs__tablist {
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  padding: 0.45rem 0.5rem 0;
+  background: var(--bg1);
+  border-bottom: 1px solid var(--bg2);
+}
+
+.content .code-tabs__tab {
+  border: 0;
+  border-radius: 5px 5px 0 0;
+  background: transparent;
+  color: var(--fg4);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  line-height: 1.2;
+  padding: 0.45rem 0.7rem;
+  white-space: nowrap;
+}
+
+.content .code-tabs__tab:hover,
+.content .code-tabs__tab:focus-visible {
+  color: var(--fg1);
+  background: var(--bg2);
+  outline: none;
+}
+
+.content .code-tabs__tab.is-active {
+  color: var(--fg);
+  background: var(--bg_s);
+}
+
+.content .code-tabs__panel .highlight {
+  margin: 0;
+}
+
+.content .code-tabs__panel .highlight pre,
+.content .code-tabs__panel pre.chroma {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+}
+
+.content .highlight pre,
+.content pre.chroma {
+  background: var(--bg_s) !important;
+  color: var(--fg1) !important;
+  border: 1px solid var(--bg2);
+  border-radius: 6px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.14);
+}
+
+.content .highlight pre code,
+.content pre.chroma code {
+  background: transparent;
+  color: inherit;
+  font-size: 0.94rem;
+}
+
+.chroma {
+  color: var(--fg1);
+  background-color: var(--bg_s);
+  -webkit-text-size-adjust: none;
+}
+
+.chroma .line {
+  display: flex;
+}
+
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .o,
+.chroma .ow {
+  color: var(--orange);
+}
+
+.chroma .kt,
+.chroma .nb,
+.chroma .bp,
+.chroma .nf,
+.chroma .fm {
+  color: var(--yellow);
+}
+
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .dl,
+.chroma .sd,
+.chroma .s2,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .sr,
+.chroma .s1 {
+  color: var(--green);
+}
+
+.chroma .ss,
+.chroma .nc,
+.chroma .nn,
+.chroma .nx {
+  color: var(--blue);
+}
+
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo,
+.chroma .no {
+  color: var(--purple);
+}
+
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .c1,
+.chroma .cs {
+  color: var(--gray);
+  font-style: italic;
+}
+
+.chroma .cp,
+.chroma .cpf {
+  color: var(--aqua);
+}
+
+.chroma .na {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.chroma .ne,
+.chroma .nl,
+.chroma .nt {
+  color: var(--red);
+}
+
+.chroma .p {
+  color: var(--fg1);
+}
+
+.chroma .hl {
+  background-color: var(--bg1);
+}
+
+.chroma .ln,
+.chroma .lnt {
+  color: var(--gray);
+  user-select: none;
+}
+
+.content code {
+  color: var(--purple);
+}
+
+.content pre code {
+  color: inherit;
+}

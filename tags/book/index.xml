@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Book on 自由王国的守望者</title><link>https://giligili612.github.io/blog/tags/book/</link><description>Recent content in Book on 自由王国的守望者</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://giligili612.github.io/blog/tags/book/index.xml" rel="self" type="application/rss+xml"/><item><title>《程序员修炼之道》(The Pragmatic Programmer) 第1章</title><link>https://giligili612.github.io/blog/posts/booknotes/thepragmaticprogrammer01/</link><pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate><guid>https://giligili612.github.io/blog/posts/booknotes/thepragmaticprogrammer01/</guid><description>&lt;h1 id="实践的哲学-a-progmatic-philosophy"&gt;实践的哲学 A Progmatic Philosophy&lt;/h1&gt;
+&lt;p&gt;本章的核心词只有一个——&lt;strong&gt;“责任”&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对工作内容与团队合作的“责任”
+&lt;ul&gt;
+&lt;li&gt;我的源码让猫给吃了(Section 1 The Cat Ate My Source Code)&lt;/li&gt;
+&lt;li&gt;石头与煮青蛙(Section 3 Stone Soup and Boiled Frogs)&lt;/li&gt;
+&lt;li&gt;交流(Section 6 Communicate)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;对项目代码的“责任”
+&lt;ul&gt;
+&lt;li&gt;软件的熵(Section 2 Software Entropy)&lt;/li&gt;
+&lt;li&gt;足够好的软件(Section 4 Good-Enough Software)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;对自己的“责任”
+&lt;ul&gt;
+&lt;li&gt;你的知识资产(Section 5 Your Knowledge Portfolio)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;progmatic&lt;/code&gt;的中文意思是“实际的、实用主义的”，该词词源是希腊语&lt;code&gt;πραττειν&lt;/code&gt;，意为&lt;code&gt;to do&lt;/code&gt;。所以第1章是关于如何展开实践的。&lt;/p&gt;
+&lt;p&gt;关于责任与实践的关系，我想到一个b站的视频&lt;a href="https://www.bilibili.com/video/BV1VuubzGEXQ/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=264f7cecba011335c6b31e96a3e557aa"&gt;唯物主义者为什么不怕鬼&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这个视频讨论了一个很有意思的主题，什么是鬼？走在阴暗的路上，人们会想背后是不是有什么东西，睡在悬空的床上，人们会想床底下是不是有什么东西。我们对世界的认识是用观念来建构的，比如睡在床上，那么当前我们头脑里的观念有：床、枕头、被子、房门等等东西，但是我们无法把握床底（如果床是悬空的话），即我们所能观测并把握的现实与我们头脑中的观念有裂缝，即使我们看一眼床底（关于床底的观念与现实的裂缝会在这一刻消失）又躺会来，裂缝仍然会存在，这个裂缝是一个小小的虚无。我们不喜欢直面虚无，觉得那里应该有一个东西，而“鬼”就是被我们填在这个裂缝里的东西。&lt;/p&gt;
+&lt;p&gt;我们害怕的不是“鬼”，而是“鬼”代表的虚无，它让我们意识到现实世界处处充满裂缝。现实在本体论层面并不是完美的，而是残缺的、混乱的，而我们要用自己的实践去为这个混乱的世界确立秩序。&lt;/p&gt;
+&lt;p&gt;害怕“鬼”本质上是对肩负起为世界确立秩序的&lt;strong&gt;责任&lt;/strong&gt;的恐惧，逢山修路，遇水架桥，困难只是困难而已。&lt;/p&gt;
+&lt;p&gt;实践的第一步就是肩负起改造世界的责任，这里的“世界”可以是人际关系、自己的技能、物质世界等等一切物质。我们常常因对肩负起改造世界的责任的恐惧而停止不前，这个恐惧是不是很像“鬼”？我们该如何不怕鬼，或者说不怕虚无呢？&lt;/p&gt;
+&lt;p&gt;不再害怕鬼的第一步，便是承认裂缝始终存在，并主动走向它。打开灯，看一眼床底；面对问题，动手处理问题；面对混乱，亲自建立秩序。&lt;/p&gt;
+&lt;h2 id="我的源码让猫给吃了-the-cat-ate-my-source-code"&gt;我的源码让猫给吃了 The Cat Ate My Source Code&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The greatest of all weaknesses is the fear of appearing weak &lt;br&gt;
+——J. B. Bossuet, Politics from Holy Writ, 1709&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>
