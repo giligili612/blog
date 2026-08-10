@@ -5,6 +5,10 @@ themes/*/node_modules/
 # Build output
 docs/.vuepress/dist/
 
+# VuePress temp and cache
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
