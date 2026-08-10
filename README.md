@@ -1,21 +1,27 @@
 # blog
 
-Hugo blog powered by the [hugo-texify3](https://github.com/michaelneuper/hugo-texify3) theme.
+The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
 
-## Local development
-
-Install Hugo Extended 0.138.0 or newer, then install the asset dependencies:
+## Install
 
 ```sh
-npm install
+pnpm i
 ```
 
-Start the local server:
+## Usage
 
 ```sh
-hugo server -D
+# start dev server
+pnpm docs:dev
+# build for production
+pnpm docs:build
+# preview production build in local
+pnpm docs:preview
+# update vuepress and theme
+pnpm vp-update
 ```
 
-## Content
+## Documents
 
-Posts live in `content/posts/`.
+- [vuepress](https://vuepress.vuejs.org/)
+- [vuepress-theme-plume](https://theme-plume.vuejs.press/)
