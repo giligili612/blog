@@ -1,1 +1,0 @@
-export const sidebar = {"/":{},"__auto__":{},"__home__":{}}

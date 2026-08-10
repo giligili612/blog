@@ -1,1 +1,0 @@
-export const siteData = JSON.parse("{\"base\":\"/blog/\",\"lang\":\"zh-CN\",\"title\":\"Blog\",\"description\":\"giligili612 的个人博客\",\"head\":[[\"link\",{\"rel\":\"icon\",\"type\":\"image/png\",\"href\":\"/blog/plume.svg\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Blog\",\"description\":\"giligili612 的个人博客\"}}}")
