@@ -12,7 +12,7 @@
 
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import navbar from './navbar'
-import collections from './collections'
+import collections from './collections/index.ts'
 
 /**
  * @see https://theme-plume.vuejs.press/config/theme/
@@ -49,11 +49,11 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: '/blog/plume.svg',
+    avatar: '/plume.svg',
     name: 'giligili612',
-    description: '记录与思考',
-    // circle: true,
-    // location: '',
+    description: '自由王国',
+    circle: true,
+    location: '苏州',
     // organization: '',
   },
 

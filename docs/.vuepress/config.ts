@@ -12,6 +12,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import collections from './collections/index.ts'
 
 export default defineUserConfig({
   base: '/blog/',
@@ -36,6 +37,8 @@ export default defineUserConfig({
     docsDir: 'docs',
     docsBranch: 'main',
 
+    // 文档分类
+    collections,
     /* 页内信息 */
     editLink: true,
     // lastUpdated: true,
@@ -52,11 +55,11 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/theme/#autofrontmatter
      */
-    // autoFrontmatter: {
-    //   permalink: true,  // 是否生成永久链接
-    //   createTime: true, // 是否生成创建时间
-    //   title: true,      // 是否生成标题
-    // },
+     autoFrontmatter: {
+      permalink: 'filepath', // 根据文件路径生成稳定链接
+      createTime: true, // 是否生成创建时间
+      title: true,      // 是否生成标题
+     },
 
     /* 本地搜索, 默认启用 */
     search: { provider: 'local' },
@@ -90,7 +93,7 @@ export default defineUserConfig({
      * markdown
      * @see https://theme-plume.vuejs.press/config/markdown/
      */
-    // markdown: {
+     markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
     //   annotation: true,   // 启用 annotation 语法  [+label]: content
     //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
@@ -115,9 +118,9 @@ export default defineUserConfig({
     //     kotlin: true,     // ::: kotlin-repl
     //     python: true,     // ::: python-repl
     //   },
-    //   math: {             // 启用数学公式
-    //     type: 'katex',
-    //   },
+       math: {             // 启用数学公式
+         type: 'katex',
+       },
     //   chartjs: true,      // 启用 chart.js
     //   echarts: true,      // 启用 ECharts
     //   mermaid: true,      // 启用 mermaid
@@ -130,7 +133,7 @@ export default defineUserConfig({
     //   },
     //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
     //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
-    // },
+     },
 
     /**
      * 水印
