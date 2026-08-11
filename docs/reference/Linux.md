@@ -28,6 +28,7 @@ permalink: /reference/linux/
 
 - **根据PID查询** `ps -fp 1000` (这个命令的输出更清晰一点)，其中`PPID`指父进程pid
 - 只**查询PID** `pidof camel`
+- 看各个程序的占用 `top`
 
 ### 精细查看
 - **根据PID查询可执行文件真实路径** `ls -l /proc/1000/exe`
