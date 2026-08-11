@@ -7,6 +7,8 @@ permalink: /reference/
 
 存放一些常用的、但不想记住的速查手册。
 
+少而精，不贪全。
+
 ## 速查手册
 
 - [CMake 速查](CMake.md)
