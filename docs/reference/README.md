@@ -14,3 +14,4 @@ permalink: /reference/
 - [CMake 速查](CMake.md)
 - [Git 速查](Git.md)
 - [Linux 命令速查](Linux.md)
+- [GDB 速查](GDB.md)

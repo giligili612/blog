@@ -10,5 +10,6 @@ export default defineCollection({
     'CMake.md',
     'Git.md',
     'Linux.md',
+    'GDB.md'
   ]
 })
