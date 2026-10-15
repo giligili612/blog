@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page__header">
+    <h1 class="page__title">{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="page__intro prose">{{ . }}</div>
+    {{ end }}
+  </header>
+
+  {{/* Top-level content sections excluding utility pages */}}
+  {{ $skip := slice "archives" "about" "topics" }}
+  {{ $sections := where .Site.Sections "Section" "not in" $skip }}
+  {{ if $sections }}
+  <ul class="post-list">
+    {{ range $sections.ByTitle }}
+    <li class="post-list__item">
+      <span class="post-list__date post-list__date--label">栏目</span>
+      <div>
+        <a class="post-list__title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Description }}
+        <p class="post-list__desc">{{ . }}</p>
+        {{ else }}
+        {{ with .Content }}
+        <p class="post-list__desc">{{ . | plainify | truncate 120 }}</p>
+        {{ end }}
+        {{ end }}
+        <p class="post-list__meta">{{ len .RegularPagesRecursive }} 篇文章</p>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p class="empty">暂无专题。</p>
+  {{ end }}
+</article>
+{{ end }}

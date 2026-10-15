@@ -1,0 +1,6 @@
+{{ if and .TableOfContents (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}
+<aside class="toc" aria-labelledby="toc-heading">
+  <h2 id="toc-heading" class="toc__title">目录</h2>
+  {{ .TableOfContents }}
+</aside>
+{{ end }}

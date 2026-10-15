@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="hero">
+  <h1 class="hero__title">{{ .Site.Title }}</h1>
+  <div class="hero__lead">
+    {{ with .Content }}
+    {{ . }}
+    {{ else }}
+    <p>{{ .Site.Params.description }}</p>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section__title">最新文章</h2>
+  {{ $pages := where .Site.RegularPages "Type" "ne" "page" }}
+  {{ $posts := where $pages "Section" "ne" "archives" }}
+  {{ $posts = where $posts "Section" "ne" "about" }}
+  {{ $posts = where $posts "Section" "ne" "topics" }}
+  {{ if $posts }}
+  <ul class="post-list">
+    {{ range first 10 $posts }}
+    <li class="post-list__item">
+      <time class="post-list__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      <div>
+        <a class="post-list__title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Description }}
+        <p class="post-list__desc">{{ . }}</p>
+        {{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <p class="empty">暂无文章。</p>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="article">
+  <header class="article__header">
+    <h1 class="article__title">{{ .Title }}</h1>
+    <p class="article__meta">
+      {{ if not .Date.IsZero }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+      {{ end }}
+      {{ with .Parent }}
+      {{ if and (ne .Kind "home") (ne .Section "about") }}
+      <span class="article__meta-sep" aria-hidden="true">·</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+      {{ end }}
+    </p>
+    {{ with .Description }}
+    <p class="article__desc">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  <div class="article__layout">
+    {{ partial "toc.html" . }}
+    <div class="article__body prose">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}
